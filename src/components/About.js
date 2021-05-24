@@ -21,10 +21,13 @@ const About = () => {
                     <div className="col-3 also-buy3"></div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-6">
-                        <b>Details</b>
-                        <p style={{fontSize:'10px', marginBottom:'2px'}}>Size: 1020 x 1020 pixel</p>
-                        <p style={{fontSize:'10px'}}>Size: 15 mb</p>
+                    <div className="col-12">
+                        <div className="col-3 det" style={{float:"right", paddingLeft:'0', paddingRight:'0'}}>
+                            <b>Details</b>
+                            <p style={{fontSize:'10px', marginBottom:'2px'}}>Size: 1020 x 1020 pixel</p>
+                            <p style={{fontSize:'10px'}}>Size: 15 mb</p>
+                        </div>
+                        
                     </div>
                 </div>
             </div>

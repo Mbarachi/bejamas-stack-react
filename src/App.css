@@ -92,14 +92,6 @@ justify-content: center;
     background-size: cover;
 }
 
-.products {
-    height: 350px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('../src/assets/images/red-bench.jpeg');
-}
-
 .filter-check-box{
     padding-left: 1.25rem;
     padding-bottom: 25px;
@@ -251,6 +243,9 @@ input[type=checkbox]{
     }
     #filter-buttons{
         display: block;
+    }
+    .details{
+        float: left;
     }
 
   }

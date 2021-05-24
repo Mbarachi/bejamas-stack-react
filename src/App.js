@@ -18,7 +18,6 @@ function App() {
   const [cartlist, setCartlist] = useState([]);
 
   const [productlist, manipulateProductlist] = useState(products);
-  const [list, filterList] = useState(products);
 
   const [selectedValue, setselectedValue] = useState("");
   const [status, setStatus] = useState(false);
