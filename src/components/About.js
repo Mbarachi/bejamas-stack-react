@@ -15,7 +15,7 @@ const About = () => {
                         <b>People also buy</b>
                     </div>
                 </div>
-                <div className="pt-3" className="images">
+                <div className="images pt-3">
                     <div className="col-3 also-buy1"></div>
                     <div className="col-3 also-buy2"></div>
                     <div className="col-3 also-buy3"></div>

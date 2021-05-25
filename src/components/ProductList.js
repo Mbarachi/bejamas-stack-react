@@ -6,7 +6,7 @@ import productListContext from '../productListContext'
 
 const ProductList = ({ addToCart }) => {
 
-    const {productlist, manipulateProductlist} = useContext(productListContext); 
+    const {productlist} = useContext(productListContext); 
 
     const processImg = (image) => {
         if(image.src === undefined) {

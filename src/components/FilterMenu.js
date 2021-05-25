@@ -15,9 +15,9 @@ const FilterMenu = () => {
   const refs = [p20, p20to100, p100to200, p200];
 
   const { productlist, manipulateProductlist } = useContext(productListContext);
-
+  
   useEffect(() => {
-    setAllProducts(productlist);
+    setAllProducts(productlist)
   }, []);
 
   const filterProducts = ({ checked, value }) => {
